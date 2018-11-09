@@ -292,7 +292,11 @@ Next, we'll also need to install the Apache module. This is actually much easier
 
 `apt-get -y install sigsci-module-apache`
 
-After installing the module, you'll also need to restart Apache for it to recognize it. You can restart Apache with:
+After installing the module, you'll also need to enable it in Apache. You can do this by running:
+
+`a2enmod signalsciences`
+
+Finally, restart Apache for these changes to take effect. You can restart Apache with:
 
 `apachectl restart`
 
@@ -327,5 +331,5 @@ It can take up to 30 seconds, but after refreshing the Dashboard you should even
 
 ## Further Reading
 
-https://www.jamescoyle.net/how-to/1503-create-your-first-docker-container
-https://maker.pro/linux/tutorial/basic-linux-commands-for-beginners
+- https://www.jamescoyle.net/how-to/1503-create-your-first-docker-container
+- https://maker.pro/linux/tutorial/basic-linux-commands-for-beginners
