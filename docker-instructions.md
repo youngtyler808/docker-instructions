@@ -181,7 +181,7 @@ Here are some other useful commands that you should have at your disposal:
 | COMMAND | WHAT IT DOES |
 | ---- | ---- |
 | `ls` | Lists the contents of a directory. I recommend using `ls -alh`, which provides more detailed information and is easier to read. |
-| `cd` | Let's you change directories and is how you'll navigate around the server. For example, you could navigate to the `/etc/httpd` directory by running `cat /etc/httpd`. |
+| `cd` | Let's you change directories and is how you'll navigate around the server. For example, you could navigate to the `/etc/httpd` directory by running `cd /etc/httpd`. |
 | `top` | Lists all running processes on the server and their stats. |
 | `mkdir` | Creates a new directory/folder. |
 | `touch` | Creates a new file. |
